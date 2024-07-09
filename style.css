@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(79, 180, 247);
+}
+#calculator{
+    max-width: 300px;
+    margin: auto;
+    border: 2px solid #bfd82e;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+}
+input{
+    width: 500px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(179, 229, 229);
+    box-sizing: content-box;
+}
+button:hover{
+    background-color: aqua;
+}
+button{
+    margin-left: 2px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    box-sizing:content-box ;
+    padding: 30px;
+    font-size: 16px;
+}
+h1{
+    margin-bottom: 5px;
+}
+#display{
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    height: 40px;
+}
